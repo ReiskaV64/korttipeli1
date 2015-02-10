@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B89ACC71A6ADF600021893C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B89ACC61A6ADF600021893C /* main.m */; };
+		1B89ACCA1A6ADF600021893C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B89ACC91A6ADF600021893C /* AppDelegate.m */; };
+		1B89ACCD1A6ADF600021893C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B89ACCC1A6ADF600021893C /* ViewController.m */; };
+		1B89ACD01A6ADF600021893C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B89ACCE1A6ADF600021893C /* Main.storyboard */; };
+		1B89ACD21A6ADF600021893C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B89ACD11A6ADF600021893C /* Images.xcassets */; };
+		1B89ACD51A6ADF610021893C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B89ACD31A6ADF610021893C /* LaunchScreen.xib */; };
+		1B89ACE11A6ADF610021893C /* korttipakkaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B89ACE01A6ADF610021893C /* korttipakkaTests.m */; };
+		1B89ACEC1A6AE09C0021893C /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B89ACEB1A6AE09C0021893C /* Card.m */; };
+		1B89ACEF1A6AE8FC0021893C /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B89ACEE1A6AE8FC0021893C /* Deck.m */; };
+		1B89ACF21A6AE9140021893C /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B89ACF11A6AE9140021893C /* PlayingCard.m */; };
+		1B89ACF51A6AE9260021893C /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B89ACF41A6AE9260021893C /* PlayingCardDeck.m */; };
+		1BF3F3621A72AC670034C659 /* Muistikorttipeli.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF3F3611A72AC670034C659 /* Muistikorttipeli.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B89ACDB1A6ADF610021893C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B89ACB91A6ADF600021893C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B89ACC01A6ADF600021893C;
+			remoteInfo = korttipakka;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B89ACC11A6ADF600021893C /* korttipakka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = korttipakka.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B89ACC51A6ADF600021893C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B89ACC61A6ADF600021893C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1B89ACC81A6ADF600021893C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1B89ACC91A6ADF600021893C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1B89ACCB1A6ADF600021893C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1B89ACCC1A6ADF600021893C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1B89ACCF1A6ADF600021893C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1B89ACD11A6ADF600021893C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1B89ACD41A6ADF610021893C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1B89ACDA1A6ADF610021893C /* korttipakkaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = korttipakkaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B89ACDF1A6ADF610021893C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B89ACE01A6ADF610021893C /* korttipakkaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = korttipakkaTests.m; sourceTree = "<group>"; };
+		1B89ACEA1A6AE09C0021893C /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		1B89ACEB1A6AE09C0021893C /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		1B89ACED1A6AE8FC0021893C /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		1B89ACEE1A6AE8FC0021893C /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
+		1B89ACF01A6AE9140021893C /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
+		1B89ACF11A6AE9140021893C /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
+		1B89ACF31A6AE9260021893C /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardDeck.h; sourceTree = "<group>"; };
+		1B89ACF41A6AE9260021893C /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardDeck.m; sourceTree = "<group>"; };
+		1BF3F3601A72AC670034C659 /* Muistikorttipeli.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Muistikorttipeli.h; sourceTree = "<group>"; };
+		1BF3F3611A72AC670034C659 /* Muistikorttipeli.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Muistikorttipeli.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B89ACBE1A6ADF600021893C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B89ACD71A6ADF610021893C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B89ACB81A6ADF600021893C = {
+			isa = PBXGroup;
+			children = (
+				1B89ACC31A6ADF600021893C /* korttipakka */,
+				1B89ACDD1A6ADF610021893C /* korttipakkaTests */,
+				1B89ACC21A6ADF600021893C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B89ACC21A6ADF600021893C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B89ACC11A6ADF600021893C /* korttipakka.app */,
+				1B89ACDA1A6ADF610021893C /* korttipakkaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B89ACC31A6ADF600021893C /* korttipakka */ = {
+			isa = PBXGroup;
+			children = (
+				1B9612011A6C81390040669B /* Model */,
+				1B89ACCB1A6ADF600021893C /* ViewController.h */,
+				1B89ACCC1A6ADF600021893C /* ViewController.m */,
+				1B89ACCE1A6ADF600021893C /* Main.storyboard */,
+				1B89ACD11A6ADF600021893C /* Images.xcassets */,
+				1B89ACD31A6ADF610021893C /* LaunchScreen.xib */,
+				1B89ACC41A6ADF600021893C /* Supporting Files */,
+			);
+			path = korttipakka;
+			sourceTree = "<group>";
+		};
+		1B89ACC41A6ADF600021893C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B89ACC81A6ADF600021893C /* AppDelegate.h */,
+				1B89ACC91A6ADF600021893C /* AppDelegate.m */,
+				1B89ACC51A6ADF600021893C /* Info.plist */,
+				1B89ACC61A6ADF600021893C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1B89ACDD1A6ADF610021893C /* korttipakkaTests */ = {
+			isa = PBXGroup;
+			children = (
+				1B89ACE01A6ADF610021893C /* korttipakkaTests.m */,
+				1B89ACDE1A6ADF610021893C /* Supporting Files */,
+			);
+			path = korttipakkaTests;
+			sourceTree = "<group>";
+		};
+		1B89ACDE1A6ADF610021893C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B89ACDF1A6ADF610021893C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1B9612011A6C81390040669B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1BF3F3601A72AC670034C659 /* Muistikorttipeli.h */,
+				1BF3F3611A72AC670034C659 /* Muistikorttipeli.m */,
+				1B89ACEA1A6AE09C0021893C /* Card.h */,
+				1B89ACED1A6AE8FC0021893C /* Deck.h */,
+				1B89ACEE1A6AE8FC0021893C /* Deck.m */,
+				1B89ACF01A6AE9140021893C /* PlayingCard.h */,
+				1B89ACF11A6AE9140021893C /* PlayingCard.m */,
+				1B89ACF31A6AE9260021893C /* PlayingCardDeck.h */,
+				1B89ACF41A6AE9260021893C /* PlayingCardDeck.m */,
+				1B89ACEB1A6AE09C0021893C /* Card.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B89ACC01A6ADF600021893C /* korttipakka */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B89ACE41A6ADF610021893C /* Build configuration list for PBXNativeTarget "korttipakka" */;
+			buildPhases = (
+				1B89ACBD1A6ADF600021893C /* Sources */,
+				1B89ACBE1A6ADF600021893C /* Frameworks */,
+				1B89ACBF1A6ADF600021893C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = korttipakka;
+			productName = korttipakka;
+			productReference = 1B89ACC11A6ADF600021893C /* korttipakka.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1B89ACD91A6ADF610021893C /* korttipakkaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B89ACE71A6ADF610021893C /* Build configuration list for PBXNativeTarget "korttipakkaTests" */;
+			buildPhases = (
+				1B89ACD61A6ADF610021893C /* Sources */,
+				1B89ACD71A6ADF610021893C /* Frameworks */,
+				1B89ACD81A6ADF610021893C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B89ACDC1A6ADF610021893C /* PBXTargetDependency */,
+			);
+			name = korttipakkaTests;
+			productName = korttipakkaTests;
+			productReference = 1B89ACDA1A6ADF610021893C /* korttipakkaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B89ACB91A6ADF600021893C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Reijo Vuohelainen";
+				TargetAttributes = {
+					1B89ACC01A6ADF600021893C = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					1B89ACD91A6ADF610021893C = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 1B89ACC01A6ADF600021893C;
+					};
+				};
+			};
+			buildConfigurationList = 1B89ACBC1A6ADF600021893C /* Build configuration list for PBXProject "korttipakka" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B89ACB81A6ADF600021893C;
+			productRefGroup = 1B89ACC21A6ADF600021893C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B89ACC01A6ADF600021893C /* korttipakka */,
+				1B89ACD91A6ADF610021893C /* korttipakkaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B89ACBF1A6ADF600021893C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B89ACD01A6ADF600021893C /* Main.storyboard in Resources */,
+				1B89ACD51A6ADF610021893C /* LaunchScreen.xib in Resources */,
+				1B89ACD21A6ADF600021893C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B89ACD81A6ADF610021893C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B89ACBD1A6ADF600021893C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B89ACF21A6AE9140021893C /* PlayingCard.m in Sources */,
+				1B89ACEF1A6AE8FC0021893C /* Deck.m in Sources */,
+				1B89ACCD1A6ADF600021893C /* ViewController.m in Sources */,
+				1B89ACCA1A6ADF600021893C /* AppDelegate.m in Sources */,
+				1B89ACF51A6AE9260021893C /* PlayingCardDeck.m in Sources */,
+				1B89ACC71A6ADF600021893C /* main.m in Sources */,
+				1B89ACEC1A6AE09C0021893C /* Card.m in Sources */,
+				1BF3F3621A72AC670034C659 /* Muistikorttipeli.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B89ACD61A6ADF610021893C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B89ACE11A6ADF610021893C /* korttipakkaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B89ACDC1A6ADF610021893C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B89ACC01A6ADF600021893C /* korttipakka */;
+			targetProxy = 1B89ACDB1A6ADF610021893C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1B89ACCE1A6ADF600021893C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B89ACCF1A6ADF600021893C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1B89ACD31A6ADF610021893C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B89ACD41A6ADF610021893C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B89ACE21A6ADF610021893C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		1B89ACE31A6ADF610021893C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B89ACE51A6ADF610021893C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = korttipakka/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1B89ACE61A6ADF610021893C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = korttipakka/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1B89ACE81A6ADF610021893C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = korttipakkaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/korttipakka.app/korttipakka";
+			};
+			name = Debug;
+		};
+		1B89ACE91A6ADF610021893C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = korttipakkaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/korttipakka.app/korttipakka";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B89ACBC1A6ADF600021893C /* Build configuration list for PBXProject "korttipakka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B89ACE21A6ADF610021893C /* Debug */,
+				1B89ACE31A6ADF610021893C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B89ACE41A6ADF610021893C /* Build configuration list for PBXNativeTarget "korttipakka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B89ACE51A6ADF610021893C /* Debug */,
+				1B89ACE61A6ADF610021893C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B89ACE71A6ADF610021893C /* Build configuration list for PBXNativeTarget "korttipakkaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B89ACE81A6ADF610021893C /* Debug */,
+				1B89ACE91A6ADF610021893C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B89ACB91A6ADF600021893C /* Project object */;
+}
