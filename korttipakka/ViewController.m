@@ -49,7 +49,7 @@
         self.scoreLabel.text = [NSString stringWithFormat:@"Score:  %ld", self.game.score];
     }
 }
-
+// Tähän kommentti
 - (NSString *)titleForCard:(Card *)card
 {
     return card.isChosen ?  card.contents : @"";
